@@ -1,0 +1,7 @@
+// Реализация стула в минималистичном стиле
+class MinimalistChair implements Chair {
+    @Override
+    public void sitOn() {
+        System.out.println("Sitting on a minimalist chair.");
+    }
+}
