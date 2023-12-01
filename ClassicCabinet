@@ -1,0 +1,6 @@
+// Реализация шкафа в стиле классики
+class ClassicCabinet implements Cabinet {
+    @Override
+    public void open() {
+        System.out.println("Opening a classic cabinet.");
+    }
