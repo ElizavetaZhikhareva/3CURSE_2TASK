@@ -1,0 +1,6 @@
+// Абстрактная фабрика для создания мебели
+interface FurnitureFactory {
+    Chair createChair();
+    Table createTable();
+    Cabinet createCabinet();
+}
