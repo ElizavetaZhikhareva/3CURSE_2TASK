@@ -1,0 +1,7 @@
+// Реализация шкафа в современном стиле
+class ModernCabinet implements Cabinet {
+    @Override
+    public void open() {
+        System.out.println("Opening a modern cabinet.");
+    }
+}
