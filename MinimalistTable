@@ -1,0 +1,7 @@
+// Реализация стола в минималистичном стиле
+class MinimalistTable implements Table {
+    @Override
+    public void use() {
+        System.out.println("Using a minimalist table.");
+    }
+}
