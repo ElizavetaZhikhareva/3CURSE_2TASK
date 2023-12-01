@@ -1,0 +1,4 @@
+// Интерфейс для шкафов
+interface Cabinet {
+    void open();
+}
