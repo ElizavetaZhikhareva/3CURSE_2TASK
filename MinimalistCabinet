@@ -1,0 +1,7 @@
+// Реализация шкафа в минималистичном стиле
+class MinimalistCabinet implements Cabinet {
+    @Override
+    public void open() {
+        System.out.println("Opening a minimalist cabinet.");
+    }
+}
